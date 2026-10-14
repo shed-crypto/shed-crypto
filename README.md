@@ -54,6 +54,7 @@
 - **Backend ([volunteer-api](https://github.com/shed-crypto/volunteer-api)):** Modular NestJS architecture, PostgreSQL with PostGIS, Prisma ORM, Socket.IO, JWT auth.
 - **Frontend ([volunteer-mobile](https://github.com/shed-crypto/volunteer-mobile)):** React Native / Expo, offline-first local caching with WatermelonDB, Google Maps API.
 - **Engineering:** Automated CI pipeline, containerized local environment, end-to-end type safety.
+
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Socket.io](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
@@ -65,6 +66,7 @@
 - **Core Engine:** Asynchronous scraping pipeline with Cloudflare/WAF bypass using Playwright and `asyncio`.
 - **Data Integrity:** Strict schema serialization and runtime validation powered by Pydantic models.
 - **Resilience:** Intelligent fallback parsers for handling unexpected dynamic DOM layout changes.
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Asyncio](https://img.shields.io/badge/AsyncIO-Concurrency-blue?style=flat-square)
 ![Pydantic](https://img.shields.io/badge/Pydantic-Data_Validation-e92063?style=flat-square)
@@ -74,6 +76,7 @@
 *Modular desktop arcade game engine engineered in Python with an emphasis on state machines and automated testing.*
 - **Architecture:** Clean separation of game loop, rendering pipelines, grid collision physics, and leaderboard state.
 - **Testing Discipline:** Comprehensive test suite of 164 unit tests covering ghost AI, movement mechanics, and state machines via `pytest` and `pytest-mock`.
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-Engine-green?style=flat-square)
 ![Pytest](https://img.shields.io/badge/Tests-164%20Passed-brightgreen?style=flat-square&logo=pytest&logoColor=white)
@@ -82,6 +85,7 @@
 *Desktop GUI studio for designing and automating GitHub contribution graph activity using pure Python & Tkinter.*
 - **Low-Level Git:** Direct manipulation of commit DAG timestamps (`GIT_COMMITTER_DATE`) and commit tree structures.
 - **GUI Engine:** Interactive canvas matrix translator converting visual 2D pixel grids into scheduled Git commit sequences.
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-blue?style=flat-square)
 ![Git](https://img.shields.io/badge/Git-Internals-F05032?style=flat-square&logo=git&logoColor=white)
