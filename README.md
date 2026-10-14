@@ -51,50 +51,40 @@
 
 #### 🤝 [Volunteer SOS Platform](https://github.com/shed-crypto/volunteer-api)
 *Full-stack humanitarian coordination platform with real-time incident dispatching and offline-first mobile sync.*
-- **Backend ([volunteer-api](https://github.com/shed-crypto/volunteer-api)):** NestJS, PostgreSQL, Prisma, Socket.IO, JWT auth with RBAC.
-- **Frontend ([volunteer-mobile](https://github.com/shed-crypto/volunteer-mobile)):** React Native / Expo, WatermelonDB local cache, Google Maps API.
-- **Key Features:** Real-time push updates for urgent aid requests, offline-first local database sync, automated CI pipeline.
-
+- **Backend ([volunteer-api](https://github.com/shed-crypto/volunteer-api)):** Modular NestJS architecture, PostgreSQL with PostGIS, Prisma ORM, Socket.IO, JWT auth.
+- **Frontend ([volunteer-mobile](https://github.com/shed-crypto/volunteer-mobile)):** React Native / Expo, offline-first local caching with WatermelonDB, Google Maps API.
+- **Engineering:** Automated CI pipeline, containerized local environment, end-to-end type safety.
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Socket.io](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Offline First](https://img.shields.io/badge/Offline--First-WatermelonDB-brightgreen?style=flat-square)
-
 ---
-
 #### ⚡ [dtek-blackout-client](https://github.com/shed-crypto/dtek-blackout-client)
-*Async Python client library for scraping Ukrainian DTEK outage schedules with automated WAF bypass and strict data validation.*
-- **Core Engine:** Asynchronous HTTP/scraping pipeline with Cloudflare/WAF bypass using Playwright and asyncio.
-- **Data Integrity:** Strict schema serialization and validation powered by Pydantic models.
-- **Architecture:** Zero-leak session management with resilient fallback parsers for dynamic DOM updates.
-
+*Async Python client library for scraping Ukrainian DTEK outage schedules with automated WAF bypass and strict validation.*
+- **Core Engine:** Asynchronous scraping pipeline with Cloudflare/WAF bypass using Playwright and `asyncio`.
+- **Data Integrity:** Strict schema serialization and runtime validation powered by Pydantic models.
+- **Resilience:** Intelligent fallback parsers for handling unexpected dynamic DOM layout changes.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Asyncio](https://img.shields.io/badge/AsyncIO-Concurrency-blue?style=flat-square)
 ![Pydantic](https://img.shields.io/badge/Pydantic-Data_Validation-e92063?style=flat-square)
 ![Playwright](https://img.shields.io/badge/Playwright-Automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-
 ---
-
-#### 🕹️ [Pac-Man Game Engine](https://github.com/shed-crypto/PacManGame)
+#### 🕹️ [Pac-Man Game Engine](https://github.com/ShevDevOps/PacManGame)
 *Modular desktop arcade game engine engineered in Python with an emphasis on state machines and automated testing.*
-- **Architecture:** Decoupled game loop, tile-based collision physics, and leaderboard state management.
-- **Testing:** 164 unit tests covering ghost AI movement, player state machines, and I/O handlers using `pytest` and `pytest-mock`.
-
+- **Architecture:** Clean separation of game loop, rendering pipelines, grid collision physics, and leaderboard state.
+- **Testing Discipline:** Comprehensive test suite of 164 unit tests covering ghost AI, movement mechanics, and state machines via `pytest` and `pytest-mock`.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-Engine-green?style=flat-square)
 ![Pytest](https://img.shields.io/badge/Tests-164%20Passed-brightgreen?style=flat-square&logo=pytest&logoColor=white)
-
 ---
-
-#### 📈 [graphgit](https://github.com/shed-crypto/graphgit)
-*Automation CLI tool exploring Git internals and manipulating commit DAG trees.*
-- **Mechanism:** Low-level generation of commit histories by manipulating `GIT_COMMITTER_DATE` and tree hashes.
-- **CLI Engine:** Interactive matrix parser translating visual 2D pixel grids into scheduled Git commit sequences.
-
+#### 📈 [grafgit](https://github.com/shed-crypto/grafgit)
+*Desktop GUI studio for designing and automating GitHub contribution graph activity using pure Python & Tkinter.*
+- **Low-Level Git:** Direct manipulation of commit DAG timestamps (`GIT_COMMITTER_DATE`) and commit tree structures.
+- **GUI Engine:** Interactive canvas matrix translator converting visual 2D pixel grids into scheduled Git commit sequences.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-blue?style=flat-square)
 ![Git](https://img.shields.io/badge/Git-Internals-F05032?style=flat-square&logo=git&logoColor=white)
-![CLI](https://img.shields.io/badge/CLI-Automation-lightgrey?style=flat-square)
 
 ---
 
