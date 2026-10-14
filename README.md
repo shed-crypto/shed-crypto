@@ -63,17 +63,16 @@
 
 ---
 
-#### ⚡ [HA-DTEK-Outage-Schedule](https://github.com/ShevDevOps/HA-DTEK-Outage-Schedule)
-*Production-ready Home Assistant integration and client library for automated power outage scheduling.*
-- **Reliability:** Built-in resilient HTTP layer with automated fallback endpoints and retry logic.
-- **Packaging:** Published as a clean reusable library with strict semantic versioning.
-- **Quality:** 96% unit & integration test coverage with automated GitHub Actions CI/CD.
+#### ⚡ [dtek-blackout-client](https://github.com/shed-crypto/dtek-blackout-client)
+*Async Python client library for scraping Ukrainian DTEK outage schedules with automated WAF bypass and strict data validation.*
+- **Core Engine:** Asynchronous HTTP/scraping pipeline with Cloudflare/WAF bypass using Playwright and asyncio.
+- **Data Integrity:** Strict schema serialization and validation powered by Pydantic models.
+- **Architecture:** Zero-leak session management with resilient fallback parsers for dynamic DOM updates.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Coverage](https://img.shields.io/badge/Coverage-96%25-brightgreen?style=flat-square)
-![Tests](https://img.shields.io/badge/Tests-215%2B-blue?style=flat-square)
-![CI/CD](https://img.shields.io/badge/GitHub_Actions-Automated-orange?style=flat-square&logo=githubactions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Asyncio](https://img.shields.io/badge/AsyncIO-Concurrency-blue?style=flat-square)
+![Pydantic](https://img.shields.io/badge/Pydantic-Data_Validation-e92063?style=flat-square)
+![Playwright](https://img.shields.io/badge/Playwright-Automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 ---
 
