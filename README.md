@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hi there, I'm Oleksii 👋
-### Backend & Software Engineer | 4th-Year CS Student
+### Backend & Software Engineer | 4th-Year Software Engineering Student
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oleksii-rachenko/)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexey.rachenko@gmail.com)
@@ -12,7 +12,7 @@
 
 ### 🚀 About Me
 
-- 🎓 **Education:** 4th-year Computer Science student at Taras Shevchenko National University of Kyiv.
+- 🎓 **Education:** 4th-year Software Engineering student at Taras Shevchenko National University of Kyiv (completed Junior Bachelor degree in 2024).
 - ⚙️ **Focus:** Engineering reliable backend architectures, event-driven integrations, and test-covered automation tools.
 - 🧪 **Engineering Discipline:** TDD mindset, high test coverage (>90%), clean modular design, and robust CI/CD workflows.
 - ⚡ **Current Interests:** Distributed backend systems, real-time sync protocols, and low-level Git internals.
