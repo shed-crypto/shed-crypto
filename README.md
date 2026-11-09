@@ -89,8 +89,8 @@
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shed-crypto&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true" alt="Oleksii's GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shed-crypto&layout=compact&theme=tokyonight&hide_border=true&hide=html,mermaid,css" alt="Top Languages" height="150" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=shed-crypto&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true" alt="Oleksii's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shed-crypto&layout=compact&theme=tokyonight&hide_border=true&hide=html,mermaid,css" alt="Top Languages" height="150" />
 </div>
 
 
