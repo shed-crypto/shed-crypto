@@ -25,7 +25,7 @@
 
 **Languages & Core**  
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,py,cpp" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,go,py,cpp" alt="Languages" />
 </a>
 
 **Frameworks & Full-Stack**  
@@ -72,23 +72,17 @@
 ![Pydantic](https://img.shields.io/badge/Pydantic-Data_Validation-e92063?style=flat-square)
 ![Playwright](https://img.shields.io/badge/Playwright-Automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ---
-#### 🕹️ [Pac-Man Game Engine](https://github.com/ShevDevOps/PacManGame)
-*Modular desktop arcade game engine engineered in Python with an emphasis on state machines and automated testing.*
-- **Architecture:** Clean separation of game loop, rendering pipelines, grid collision physics, and leaderboard state.
-- **Testing Discipline:** Comprehensive test suite of 164 unit tests covering ghost AI, movement mechanics, and state machines via `pytest` and `pytest-mock`.
+#### 🌐 [resona-mesh](https://github.com/shed-crypto/resona-mesh)
+*Decentralized P2P audio streaming and mesh network engine with zero-server local autonomy. (Bachelor's Thesis @ KNU)*
+- **Distributed Networking:** P2P mesh built with Go and libp2p, featuring mDNS local discovery, RFC 5389 STUN, and DCUtR UDP hole punching for seamless NAT traversal.
+- **Resilient Streaming:** Range-based 256 KiB audio chunking, Ed25519 cryptographic content authentication, and embedded pure-Go SQLite with FTS5 search.
+- **Single-Binary Delivery:** Zero-dependency standalone executable embedding a responsive React/TypeScript frontend via Go `//go:embed`.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pygame](https://img.shields.io/badge/Pygame-Engine-green?style=flat-square)
-![Pytest](https://img.shields.io/badge/Tests-164%20Passed-brightgreen?style=flat-square&logo=pytest&logoColor=white)
----
-#### 📈 [grafgit](https://github.com/shed-crypto/grafgit)
-*Desktop GUI studio for designing and automating GitHub contribution graph activity using pure Python & Tkinter.*
-- **Low-Level Git:** Direct manipulation of commit DAG timestamps (`GIT_COMMITTER_DATE`) and commit tree structures.
-- **GUI Engine:** Interactive canvas matrix translator converting visual 2D pixel grids into scheduled Git commit sequences.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Tkinter](https://img.shields.io/badge/Tkinter-GUI-blue?style=flat-square)
-![Git](https://img.shields.io/badge/Git-Internals-F05032?style=flat-square&logo=git&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![libp2p](https://img.shields.io/badge/libp2p-Networking-blue?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![P2P](https://img.shields.io/badge/P2P-Decentralized-brightgreen?style=flat-square)
 
 ---
 
