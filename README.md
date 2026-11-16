@@ -76,16 +76,17 @@
 
 ---
 
-#### ⚡ [dtek-blackout-client](https://github.com/shed-crypto/dtek-blackout-client)
-*Async Python client library for scraping Ukrainian DTEK outage schedules with automated WAF bypass and strict validation.*
-- **Core Engine:** Asynchronous scraping pipeline with Cloudflare/WAF bypass using Playwright and `asyncio`.
-- **Data Integrity:** Strict schema serialization and runtime validation powered by Pydantic models.
-- **Resilience:** Intelligent fallback parsers for handling unexpected dynamic DOM layout changes.
+#### ⚡ [DTEK Outage Ecosystem](https://github.com/shed-crypto/dtek-blackout-client)
+*Lightweight PyPI async client library (`dtek-blackout-client`) and production Home Assistant HACS integration (`ha-ua-outages`) for Ukrainian power outage schedules.*
+- **Core Library ([dtek-blackout-client](https://github.com/shed-crypto/dtek-blackout-client)):** Built on lightweight `aiohttp` and Pydantic v2 models with optional Playwright WAF bypass (`[browser]` extra) and 90%+ test coverage.
+- **HA Integration ([ha-ua-outages](https://github.com/shed-crypto/ha-ua-outages)):** HACS-ready custom component supporting DTEK & CEK with Config Flow UI, Calendar/Binary Sensor entities, and localized translations.
+- **Automation:** Published to PyPI via GitHub Actions CI/CD (`mypy` strict, `ruff`, `pytest`, and HACS/hassfest validation).
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Asyncio](https://img.shields.io/badge/AsyncIO-Concurrency-blue?style=flat-square)
-![Pydantic](https://img.shields.io/badge/Pydantic-Data_Validation-e92063?style=flat-square)
-![Playwright](https://img.shields.io/badge/Playwright-Automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![PyPI](https://img.shields.io/badge/PyPI-v0.2.1-blue?style=flat-square&logo=pypi&logoColor=white)
+![aiohttp](https://img.shields.io/badge/aiohttp-Async-2C5BB4?style=flat-square)
+![Pydantic](https://img.shields.io/badge/Pydantic-v2-e92063?style=flat-square)
+![Home Assistant](https://img.shields.io/badge/Home_Assistant-HACS-41BDF5?style=flat-square&logo=homeassistant&logoColor=white)
 
 ---
 
