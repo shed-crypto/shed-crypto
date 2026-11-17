@@ -76,16 +76,16 @@
 
 ---
 
-#### ⚡ [DTEK Outage Ecosystem](https://github.com/shed-crypto/dtek-blackout-client)
-*Lightweight PyPI async client library (`dtek-blackout-client`) and production Home Assistant HACS integration (`ha-ua-outages`) for Ukrainian power outage schedules.*
-- **Core Library ([dtek-blackout-client](https://github.com/shed-crypto/dtek-blackout-client)):** Built on lightweight `aiohttp` and Pydantic v2 models with optional Playwright WAF bypass (`[browser]` extra) and 90%+ test coverage.
-- **HA Integration ([ha-ua-outages](https://github.com/shed-crypto/ha-ua-outages)):** HACS-ready custom component supporting DTEK & CEK with Config Flow UI, Calendar/Binary Sensor entities, and localized translations.
-- **Automation:** Published to PyPI via GitHub Actions CI/CD (`mypy` strict, `ruff`, `pytest`, and HACS/hassfest validation).
+#### ⚡ [UA Power Outages Ecosystem](https://github.com/shed-crypto/ha-ua-outages)
+*End-to-end open-source ecosystem for tracking Ukrainian power outage schedules in Home Assistant — from raw scraping to dashboard UI.*
+- **Core Library ([dtek-blackout-client](https://github.com/shed-crypto/dtek-blackout-client)):** Lightweight PyPI async client (`aiohttp` + Pydantic v2) with optional Playwright WAF bypass and 90%+ test coverage.
+- **HA Integration ([ha-ua-outages](https://github.com/shed-crypto/ha-ua-outages)):** HACS-ready component supporting DTEK & CEK with Config Flow UI, Calendar/Sensor entities, and translations.
+- **Dashboard UI ([lovelace-ua-outages-card](https://github.com/shed-crypto/lovelace-ua-outages-card)):** Custom Lovelace cards (Daily & Weekly views) built with TypeScript, Lit Web Components, Rollup, and Vitest.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyPI](https://img.shields.io/badge/PyPI-v0.2.1-blue?style=flat-square&logo=pypi&logoColor=white)
-![aiohttp](https://img.shields.io/badge/aiohttp-Async-2C5BB4?style=flat-square)
-![Pydantic](https://img.shields.io/badge/Pydantic-v2-e92063?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Lit](https://img.shields.io/badge/Lit-Web_Components-324FFF?style=flat-square&logo=lit&logoColor=white)
 ![Home Assistant](https://img.shields.io/badge/Home_Assistant-HACS-41BDF5?style=flat-square&logo=homeassistant&logoColor=white)
 
 ---
